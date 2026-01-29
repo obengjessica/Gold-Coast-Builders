@@ -9,7 +9,7 @@ import Footer from './components/ui/Footer';
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/Gold-Coast-Builders/">
       <div className="min-h-screen">
         <Navbar />
         <Routes>
